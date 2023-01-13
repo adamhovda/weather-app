@@ -37,7 +37,7 @@ let searchSubmit = function(event) {
     // cityArr.push(city)
     // localStorage.setItem("city", JSON.stringify(cityArr));
     // console.log(cityArr);
-    const cityCord = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=2ecc26c6348a0e2078f24f145b2188aa'
+    const cityCord = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=2ecc26c6348a0e2078f24f145b2188aa'
     fetch(cityCord)
     .then(function (response) {
         return response.json();
