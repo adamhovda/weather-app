@@ -122,7 +122,7 @@ let displayDaily = function(location, weather, humidity, wind, icon){
     let todayWind = document.createElement("li");
     let todayIcon = document.createElement("img");
 
-    todayIcon.setAttribute('src', 'http://openweathermap.org/img/wn/' + icon + '@2x.png');
+    todayIcon.setAttribute('src', 'https://openweathermap.org/img/wn/' + icon + '@2x.png');
     cityName.textContent = location;
     todayTemp.textContent = weather + "°";
     
@@ -147,7 +147,7 @@ let displayWeekly = function(weather, humidity, wind, icon){
     let todayWind = document.createElement("li");
     let todayIcon = document.createElement("img");
     
-    todayIcon.setAttribute('src', 'http://openweathermap.org/img/wn/' + icon + '@2x.png');
+    todayIcon.setAttribute('src', 'https://openweathermap.org/img/wn/' + icon + '@2x.png');
     todayTemp.textContent = weather + "°";
     todayHumidity.textContent = humidity + "%";
     todayWind.textContent = wind + " mph";
