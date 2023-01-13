@@ -1,5 +1,24 @@
 .searchAgain {
 
-    color: red;
-    background-color: blue;
+    color: darkblue;
+
 }
+
+#weatherToday {
+    background-color: lightblue;
+    text-align: left;
+
+}
+
+#weatherWeek {
+
+    display: flex;
+    background-color: darkblue;
+    color: azure;
+}
+
+.sidebar {
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
